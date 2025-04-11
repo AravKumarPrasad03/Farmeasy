@@ -4,7 +4,7 @@ const sendBtn = document.getElementById("send-btn");
 const fileInput = document.getElementById("file-input");
 const chatHistoryDiv = document.getElementById("chat-history");
 
-const GEMINI_API_KEY = "AIzaSyA2hHnaUpgLSQyBEjP9gdlHbcKDquMkOmc";
+const GEMINI_API_KEY = "";
 
 let chatHistory = JSON.parse(localStorage.getItem("chatHistory")) || [];
 
